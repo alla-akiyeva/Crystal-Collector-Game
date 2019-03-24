@@ -1,0 +1,90 @@
+section {
+    margin: auto;
+    width: 900px;
+    padding: 15px;
+    background-image: url("../images/bananas.png");
+}
+
+h1 {
+    background-color: orange;
+    color: white;
+    width: 300px;
+    padding: 15px 10px 15px 10px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+#instructions {
+    color: green;
+    background-color: rgb(247, 247, 108);
+    width: 550px;
+    font-weight: bold;
+    padding: 10px 20px 10px 20px;
+    height: 400px;
+    font-size: 18px;
+}
+
+p {
+    padding: 5px 0px 5px 0px;
+}
+
+#random-number {
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(225, 125, 142);
+    width: 280px;
+    height: 150px;
+}
+
+#wins-losses {
+    float: left;
+    margin-top: 10px;
+    margin-left: 15px;
+    background-color: rgb(159, 219, 159); 
+    width: 150px;
+    height: 150px;
+    padding-left: 5px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#crystal-block {
+    float: left;
+    clear: left;
+}
+
+button {
+    width: 100px;
+    height: 100px;
+    padding: 0;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+
+ #total-score {
+    clear: left;
+    background-color: rgb(180, 67, 86);
+    padding-left: 5px;
+    width: 275px;
+    margin-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+ }
+
+ #score {
+    background-color: rgb(180, 67, 86);
+    width: 275px;
+    height: 150px;
+    padding-left: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+ }
