@@ -8,17 +8,13 @@
   <meta name="description" content="JavaScript CrystalsCollector Game">
   <!--CSS link-->
   <link rel="stylesheet" href="./assets/css/style.css">
-  <!--jQuery link-->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <!--JavaScript link-->
-  <script src="assets/javascript/game-1.js"></script>
 </head>
 
 <body>
 <section>
   <h1>CrystalsCollector!</h1>
   <div id="instructions">
-    <p>You will be give a random number at the start of the game.</p>
+    <p>You will be given a random number at the start of the game.</p>
     <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
     <p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
     <p>The value of each crystal is hidden from you until you click on it.</p>
@@ -26,6 +22,7 @@
   </div>
   <div id="random-number"></div>
   <div id="wins-losses">
+      <p id="winOrLoss"></p>
       <p id="wins">Wins: </p>
       <p id="losses">Losses: </p>
   </div>
@@ -39,4 +36,8 @@
   <p id="total-score">Your total score is: </p>
   <div id="score">0</div>
 </body>
+<!--jQuery link-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!--JavaScript link-->
+<script src="assets/javascript/game.js"></script>
 </html>
