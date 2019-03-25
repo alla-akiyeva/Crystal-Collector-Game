@@ -6,7 +6,12 @@
 
   <title>Crystals Collector</title>
   <meta name="description" content="JavaScript CrystalsCollector Game">
+  <!--CSS link-->
   <link rel="stylesheet" href="./assets/css/style.css">
+  <!--jQuery link-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!--JavaScript link-->
+  <script src="assets/javascript/game-1.js"></script>
 </head>
 
 <body>
@@ -14,7 +19,7 @@
   <h1>CrystalsCollector!</h1>
   <div id="instructions">
     <p>You will be give a random number at the start of the game.</p>
-    <p>There are four crystals below. By clickin on a crystal you will add a specific amount of points to your total score.</p>
+    <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
     <p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
     <p>The value of each crystal is hidden from you until you click on it.</p>
     <p>Each time when the game starts, the game will change the values of each crystal.</p>
@@ -26,14 +31,12 @@
   </div>
   <!--Four crystals-->
   <div id="crystal-block">
-        <button><img src="./assets/images/crystal5.png"></button>
-        <button><img src="./assets/images/crystal6.png"></button>
-        <button><img src="./assets/images/crystal7.jpg"></button>
-        <button><img src="./assets/images/images.jpeg"></button>
+        <button id="crystal1"><img src="./assets/images/crystal5.png"></button>
+        <button id="crystal2"><img src="./assets/images/crystal6.png"></button>
+        <button id="crystal3"><img src="./assets/images/crystal7.jpg"></button>
+        <button id="crystal4"><img src="./assets/images/images.jpeg"></button>
   </div>
   <p id="total-score">Your total score is: </p>
   <div id="score">0</div>
-  <script src="./assets/javascript/game.js"></script>
-</section>
 </body>
 </html>
