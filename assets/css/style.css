@@ -124,3 +124,18 @@ img {
     position: relative;
     overflow: hidden;
  } 
+
+ @media screen and (max-width: 1250px) {
+    #instructions {
+        font-size: 16px;
+    }
+ }
+
+ @media screen and (max-width: 1110px) {
+    #instructions {
+        font-size: 14px;
+    }
+ }
+
+ /* First break for instructions font is 1000px width
+     825 px - button size*/
