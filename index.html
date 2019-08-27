@@ -3,9 +3,9 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-
   <title>Crystals Collector</title>
   <meta name="description" content="JavaScript CrystalsCollector Game">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!--CSS link-->
   <link rel="stylesheet" href="./assets/css/style.css">
 </head>
@@ -25,13 +25,14 @@
   <div class="row">
 
   
-  <div class="column" style="width: 40%">
+  <div class="column" id="col-1" style="width: 40%">
     <div id="random-number"></div>
     <div id="wins-losses">
         <p id="winOrLoss"></p>
         <p id="wins">Wins: </p>
         <p id="losses">Losses: </p>
     </div>
+
     <!--Four crystals-->
     <div id="crystal-block">
           <button id="crystal1"><img src="./assets/images/crystal5.png"></button>
@@ -42,7 +43,7 @@
   </div>
     
   
-  <div class="column" style="width: 58%; margin-left: 2%">
+  <div class="column" id="col-2" style="width: 58%; margin-left: 2%">
     <p id="total-score">Your total score is: </p>
     <div id="score">0</div>
   </div>
