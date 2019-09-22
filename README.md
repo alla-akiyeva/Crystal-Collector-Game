@@ -23,7 +23,7 @@ Once a crystal is clicked, the player's score counter is updated.
 
 * When the game begins again, the player should see a new random number. Also, all the crystals will have four new hidden values. The user's score is reset to zero.
 
-The game also shows the total number of wins and loses. 
+* The game will show the total number of wins and loses. 
 
 #### Built With
 
